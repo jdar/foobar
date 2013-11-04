@@ -23,9 +23,6 @@ group :development do
   gem 'meta_request'
 end
 
-# Any gems that are built using native extensions should be placed in the native group.  This will
-# keep them from being loaded once the code is pushed to ALTESS.  These gems should be manually installed
-# on all the ALTESS web servers.
 group :native do
   gem 'mysql2', "= 0.3.13"
   gem 'nokogiri', "= 1.6.0"
